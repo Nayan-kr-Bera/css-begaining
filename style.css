@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: my-font;
+    
+}
+@font-face {
+    font-family: "my-font";
+    src: url("./assets/fonts/WorkSans-VariableFont_wght.ttf");
+}
+
+.main
+{   
+    /* border: 5px solid rgb(245, 0, 0); */
+    height: 1000px;
+ 
+    background-color: rgba(240, 204, 234, 0.6);
+  
+    position: relative;
+}
+#bg-img{
+   width:100%;
+}
+.container
+{
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background: white;
+    border-radius: 20px;
+    height: auto;
+    width: 550px;
+    padding: 20px;
+}
+/* .heading{
+    border: 1px solid red;
+    
+} */
+.logo{
+    padding-left: 20px;
+}
+h1{
+    display: inline;
+    font-size: 50px;
+    font-family:my-font;
+    font-weight:600;
+    
+}
+.heading{
+    margin-bottom: 20px;
+}
+
+.context1{
+    /* border: 1px solid red; */
+    position: relative;
+    margin-bottom: 20px;
+   
+}
+.context2{
+    /* border: 1px solid red; */
+    
+    position: relative;
+    margin-bottom: 20px;
+}
+.context3{
+    /* border: 1px solid red; */
+    
+    position: relative;
+    margin-bottom: 20px;
+}
+.context4{
+    /* border: 1px solid red; */
+    
+    position: relative;
+}
+#h6{
+    display: inline-block;
+    font-size: 17px;
+    text-align: start;
+    margin-bottom: 30px;
+}
+h6{
+    display: inline-block;
+    font-size: 17px;
+    text-align: start;
+    margin-bottom: 15px;
+
+}
+.logo{
+    /* height: 40px;
+    width: 40px; */
+    position: absolute;
+    right: 0;
+    top: 2px;
+
+
+}
+.logo-star{
+    height: 30px;
+    width: 40px;
+}
+p{
+    
+    display: inline-block;
+    font-size: 15px;
+    padding-top: 5px;
+    text-align: start;
+    margin-bottom: 30px;
+    width: 95%;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background-color: #e7d9d9cc;  
+    box-shadow: 0 0px 5px rgba(0, 0, 0, 0.2);
+    width: 450px;
+    position: relative;
+    left: 5%;
+}
